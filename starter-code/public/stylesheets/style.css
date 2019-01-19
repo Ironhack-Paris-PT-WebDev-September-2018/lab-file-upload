@@ -1,8 +1,80 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.tumblr-logo {
+  width: 44px;
+  height: 44px;
+}
+
+.navbar {
+  background-color: #36465d;
+}
+
+.navbar-nav>li>a, .navbar-nav>li>form>button {
+  color: #fff;
+}
+
+.navbar-nav>li>form>button, .navbar-nav>li>form>button:hover {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  color: white;
+  line-height: 18px;
+}
+
+.navbar-nav>li>form>button:hover, .navbar-nav>li>form>button:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.navbar-brand {
+  padding: 2px 15px;
+}
+
+.profile-picture {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.index-welcome {
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  width: 36.1%;
+  margin: 0 auto 50px auto;
+}
+
+.single-post {
+  float: none;
+  margin: 15px auto;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.single-post img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.single-post p {
+  margin-bottom: 15px;
+}
+
+.single-post span {
+  color: #a7a7a7;
+}
+
+.post-comment {
+  border: 1px solid rgba(0,0,0,.08);
+  max-height: 200px;
+  padding: 15px;
+  margin: 12px 0;
+}
+
+.post-comment img {
+  height: 150px;
 }
